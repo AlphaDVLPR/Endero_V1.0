@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A9DD4992AB249F000788E98 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DD4982AB249F000788E98 /* SplashView.swift */; };
+		8AB1FAB22AB00BD10023C52E /* Endero_v1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAB12AB00BD10023C52E /* Endero_v1_0App.swift */; };
+		8AB1FAB62AB00BDC0023C52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FAB52AB00BDC0023C52E /* Assets.xcassets */; };
+		8AB1FAB92AB00BDC0023C52E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FAB82AB00BDC0023C52E /* Preview Assets.xcassets */; };
+		8AB1FACD2AB00DC70023C52E /* Endero Background Color - Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FAC72AB00DC60023C52E /* Endero Background Color - Dark.png */; };
+		8AB1FACE2AB00DC70023C52E /* Endero Background-Light Mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FAC82AB00DC70023C52E /* Endero Background-Light Mode.png */; };
+		8AB1FACF2AB00DC70023C52E /* Endero App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FAC92AB00DC70023C52E /* Endero App Icon.png */; };
+		8AB1FAD12AB00DC70023C52E /* Enduro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FACB2AB00DC70023C52E /* Enduro.png */; };
+		8AB1FAD22AB00DC70023C52E /* Endero App Icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1FACC2AB00DC70023C52E /* Endero App Icon.svg */; };
+		8AB1FAD42AB00EE20023C52E /* OnboardingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAD32AB00EE20023C52E /* OnboardingTutorial.swift */; };
+		8AB1FAD92AB019DE0023C52E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAD82AB019DE0023C52E /* Services.swift */; };
+		8AB1FADB2AB019F90023C52E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FADA2AB019F90023C52E /* Home.swift */; };
+		8AB1FAE02AB01EB80023C52E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FADF2AB01EB80023C52E /* OnboardingView.swift */; };
+		8AB1FAE62AB16B530023C52E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAE52AB16B520023C52E /* Onboarding.swift */; };
+		8AB1FAE82AB16C440023C52E /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAE72AB16C440023C52E /* OnboardingData.swift */; };
+		8AB1FAEA2AB16F190023C52E /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FAE92AB16F190023C52E /* OnboardingCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A9DD4982AB249F000788E98 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8AB1FAAE2AB00BD10023C52E /* Endero_v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endero_v1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB1FAB12AB00BD10023C52E /* Endero_v1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endero_v1_0App.swift; sourceTree = "<group>"; };
+		8AB1FAB52AB00BDC0023C52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AB1FAB82AB00BDC0023C52E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AB1FAC72AB00DC60023C52E /* Endero Background Color - Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Endero Background Color - Dark.png"; path = "../../../../../Downloads/Endero Background Color - Dark.png"; sourceTree = "<group>"; };
+		8AB1FAC82AB00DC70023C52E /* Endero Background-Light Mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Endero Background-Light Mode.png"; path = "../../../../../Downloads/Endero Background-Light Mode.png"; sourceTree = "<group>"; };
+		8AB1FAC92AB00DC70023C52E /* Endero App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Endero App Icon.png"; path = "../../../../../Downloads/Endero App Icon.png"; sourceTree = "<group>"; };
+		8AB1FACB2AB00DC70023C52E /* Enduro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enduro.png; path = ../../../../../Downloads/Enduro.png; sourceTree = "<group>"; };
+		8AB1FACC2AB00DC70023C52E /* Endero App Icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Endero App Icon.svg"; path = "../../../../../Downloads/Endero App Icon.svg"; sourceTree = "<group>"; };
+		8AB1FAD32AB00EE20023C52E /* OnboardingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTutorial.swift; sourceTree = "<group>"; };
+		8AB1FAD82AB019DE0023C52E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		8AB1FADA2AB019F90023C52E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8AB1FADF2AB01EB80023C52E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8AB1FAE52AB16B520023C52E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		8AB1FAE72AB16C440023C52E /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
+		8AB1FAE92AB16F190023C52E /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB1FAAB2AB00BD10023C52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A9DD4972AB249B600788E98 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DD4982AB249F000788E98 /* SplashView.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		8AB1FAA52AB00BD10023C52E = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAB02AB00BD10023C52E /* Endero_v1.0 */,
+				8AB1FAAF2AB00BD10023C52E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB1FAAF2AB00BD10023C52E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAAE2AB00BD10023C52E /* Endero_v1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB1FAB02AB00BD10023C52E /* Endero_v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAC32AB00C750023C52E /* Fonts */,
+				8AB1FAC22AB00C630023C52E /* Views */,
+				8AB1FAC12AB00C3A0023C52E /* ViewModels */,
+				8AB1FAC42AB00C9B0023C52E /* Networking */,
+				8AB1FAC62AB00CA90023C52E /* Services */,
+				8AB1FAC02AB00C060023C52E /* Models */,
+				8AB1FABF2AB00BF10023C52E /* Resources */,
+				8AB1FAB72AB00BDC0023C52E /* Preview Content */,
+			);
+			path = Endero_v1.0;
+			sourceTree = "<group>";
+		};
+		8AB1FAB72AB00BDC0023C52E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAB82AB00BDC0023C52E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AB1FABF2AB00BF10023C52E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAB52AB00BDC0023C52E /* Assets.xcassets */,
+				8AB1FAC92AB00DC70023C52E /* Endero App Icon.png */,
+				8AB1FACC2AB00DC70023C52E /* Endero App Icon.svg */,
+				8AB1FAC82AB00DC70023C52E /* Endero Background-Light Mode.png */,
+				8AB1FAC72AB00DC60023C52E /* Endero Background Color - Dark.png */,
+				8AB1FACB2AB00DC70023C52E /* Enduro.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AB1FAC02AB00C060023C52E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAE42AB16B2A0023C52E /* Onboarding */,
+				8AB1FAD52AB016010023C52E /* Reuseable Text */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AB1FAC12AB00C3A0023C52E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8AB1FAC22AB00C630023C52E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DD4972AB249B600788E98 /* Splash Screen */,
+				8AB1FAE12AB12E660023C52E /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AB1FAC32AB00C750023C52E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8AB1FAC42AB00C9B0023C52E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8AB1FAC62AB00CA90023C52E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8AB1FAD52AB016010023C52E /* Reuseable Text */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAD32AB00EE20023C52E /* OnboardingTutorial.swift */,
+				8AB1FADA2AB019F90023C52E /* Home.swift */,
+				8AB1FAD82AB019DE0023C52E /* Services.swift */,
+			);
+			path = "Reuseable Text";
+			sourceTree = "<group>";
+		};
+		8AB1FAE12AB12E660023C52E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAE22AB12E760023C52E /* Main */,
+				8AB1FAE32AB12E800023C52E /* Cards */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8AB1FAE22AB12E760023C52E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FADF2AB01EB80023C52E /* OnboardingView.swift */,
+				8AB1FAB12AB00BD10023C52E /* Endero_v1_0App.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8AB1FAE32AB12E800023C52E /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAE92AB16F190023C52E /* OnboardingCardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		8AB1FAE42AB16B2A0023C52E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FAE52AB16B520023C52E /* Onboarding.swift */,
+				8AB1FAE72AB16C440023C52E /* OnboardingData.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB1FAAD2AB00BD10023C52E /* Endero_v1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB1FABC2AB00BDC0023C52E /* Build configuration list for PBXNativeTarget "Endero_v1.0" */;
+			buildPhases = (
+				8AB1FAAA2AB00BD10023C52E /* Sources */,
+				8AB1FAAB2AB00BD10023C52E /* Frameworks */,
+				8AB1FAAC2AB00BD10023C52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endero_v1.0;
+			productName = Endero_v1.0;
+			productReference = 8AB1FAAE2AB00BD10023C52E /* Endero_v1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB1FAA62AB00BD10023C52E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8AB1FAAD2AB00BD10023C52E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8AB1FAA92AB00BD10023C52E /* Build configuration list for PBXProject "Endero_v1.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB1FAA52AB00BD10023C52E;
+			productRefGroup = 8AB1FAAF2AB00BD10023C52E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB1FAAD2AB00BD10023C52E /* Endero_v1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB1FAAC2AB00BD10023C52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB1FAD22AB00DC70023C52E /* Endero App Icon.svg in Resources */,
+				8AB1FACE2AB00DC70023C52E /* Endero Background-Light Mode.png in Resources */,
+				8AB1FACD2AB00DC70023C52E /* Endero Background Color - Dark.png in Resources */,
+				8AB1FAB92AB00BDC0023C52E /* Preview Assets.xcassets in Resources */,
+				8AB1FAB62AB00BDC0023C52E /* Assets.xcassets in Resources */,
+				8AB1FAD12AB00DC70023C52E /* Enduro.png in Resources */,
+				8AB1FACF2AB00DC70023C52E /* Endero App Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB1FAAA2AB00BD10023C52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB1FAE62AB16B530023C52E /* Onboarding.swift in Sources */,
+				8AB1FAD92AB019DE0023C52E /* Services.swift in Sources */,
+				8AB1FAD42AB00EE20023C52E /* OnboardingTutorial.swift in Sources */,
+				8AB1FAEA2AB16F190023C52E /* OnboardingCardView.swift in Sources */,
+				8AB1FADB2AB019F90023C52E /* Home.swift in Sources */,
+				8AB1FAE02AB01EB80023C52E /* OnboardingView.swift in Sources */,
+				8AB1FAB22AB00BD10023C52E /* Endero_v1_0App.swift in Sources */,
+				8AB1FAE82AB16C440023C52E /* OnboardingData.swift in Sources */,
+				8A9DD4992AB249F000788E98 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AB1FABA2AB00BDC0023C52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB1FABB2AB00BDC0023C52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB1FABD2AB00BDC0023C52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Endero_v1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = J27FYKQAGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDVLPR.Endero-v1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AB1FABE2AB00BDC0023C52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Endero_v1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = J27FYKQAGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDVLPR.Endero-v1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB1FAA92AB00BD10023C52E /* Build configuration list for PBXProject "Endero_v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1FABA2AB00BDC0023C52E /* Debug */,
+				8AB1FABB2AB00BDC0023C52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB1FABC2AB00BDC0023C52E /* Build configuration list for PBXNativeTarget "Endero_v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1FABD2AB00BDC0023C52E /* Debug */,
+				8AB1FABE2AB00BDC0023C52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB1FAA62AB00BD10023C52E /* Project object */;
+}
