@@ -1,8 +1,6 @@
 # Endero_V1.0
 
-Endero
-
-<![Endero App Icon](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c79a9fc3-1f4c-4349-8a53-784301670650) height="250" width="250">
+![Endero App Icon](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c79a9fc3-1f4c-4349-8a53-784301670650)
 
 Table of Contents
 
