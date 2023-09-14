@@ -2,7 +2,7 @@
 
 Endero
 
-![Endero App Icon](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c79a9fc3-1f4c-4349-8a53-784301670650)
+![Endero App Icon](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c79a9fc3-1f4c-4349-8a53-784301670650) =250x250)
 
 Table of Contents
 
@@ -18,9 +18,9 @@ Introduction
 
 Endero is an iOS application designed to provide a platform for users to both seek and give advice anonymously. Whether you have a burning question you're too shy to ask openly, or you want to share your wisdom without revealing your identity, this app has got you covered. It's a safe and supportive community for sharing advice on a wide range of topics.
 
-![Screenshot 2023-09-14 143952](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c0ea1a57-4bc7-4d6c-bc6e-3e46484ff898)
+![Screenshot 2023-09-14 143952](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/c0ea1a57-4bc7-4d6c-bc6e-3e46484ff898) width="200" height="400"
 
-![Screenshot 2023-09-14 144036](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/e1778c65-b69c-4d62-ba9c-11be1818a141)
+![Screenshot 2023-09-14 144036](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/e1778c65-b69c-4d62-ba9c-11be1818a141) width="200" height="400"
 
 Features
 
@@ -59,9 +59,9 @@ Usage
 
 Screenshots
 
-![Screenshot 2023-09-14 144208](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/26c1ed00-a810-4777-b680-8c0d0bc3c598)
+![Screenshot 2023-09-14 144208](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/26c1ed00-a810-4777-b680-8c0d0bc3c598) width="200" height="400"
 
-![Screenshot 2023-09-14 144314](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/bf6434c2-1562-4cec-ac0d-676b15b9417a)
+![Screenshot 2023-09-14 144314](https://github.com/AlphaDVLPR/Endero_V1.0/assets/51697381/bf6434c2-1562-4cec-ac0d-676b15b9417a) width="200" height="400"
 
 This project is licensed under the MIT License.
 
